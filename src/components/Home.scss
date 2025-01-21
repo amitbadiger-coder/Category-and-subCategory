@@ -1,0 +1,32 @@
+.banner{
+    background-color: black;
+    height: 400px;
+   
+}
+
+.row{
+    padding:1rem;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    >h2{
+        margin: 0.5rem;
+    }
+    >div{
+        display: flex;
+        justify-content: space-between;
+        overflow-x: auto;
+        justify-content: center;
+    }
+
+}
+
+.card{
+    height: 200px;
+    margin: .7rem;
+    cursor: pointer;
+    transition: transform 0.5s;
+    &:hover{
+        transform: translate(-10px) scale(1.1);
+    }
+}

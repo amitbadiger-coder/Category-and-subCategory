@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Nunito+Sans:ital,opsz,wght@1,6..12,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.Header{
+    height: 80px;
+   
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 2rem;
+    justify-content: space-between;
+    
+    >img{
+        height: 80px;
+    border-radius: 50%;
+    
+    }
+
+    >div{
+    border: 1px solid gray;
+    }
+    >svg{
+        color: white;
+        cursor: pointer;
+        font-size: 2rem;
+        
+    }
+}
